@@ -1,7 +1,14 @@
-
+.boutton
+{
+  background-color:white;
+  font-size: 20px;
+  height: 50px;
+  align-items: center;
+  text-decoration: none; 
+}
 .button
 {
-  background-color:pink;
+  background-color:#FF00FF;
   font-size: 20px;
   height: 50px;
   align-items: center;
@@ -15,8 +22,10 @@ background-color:#1E64F0;
 }
 header a 
 {
-color: black;
-text-decoration: none;  
+  font-size: 20px;
+color:white;
+text-decoration: none;
+font-family: arial;  
 }
 header li
 {
@@ -36,14 +45,17 @@ header #login{
 .div1
 {
   background: #1E64F0;
-  padding: 50px;
-  color: white
+  padding: 80px;
+  color: white;
+  font-family: arial;
 }
 .vd {
-  width:60%;
+  width:100%;
   display: flex;
   flex-direction: right;
   flex-flow:wrap;
+  justify-content: right;
+
 }
 .new 
 {
@@ -101,8 +113,18 @@ header #login{
   display: flex;
   justify-content: center;
 }
+.business h2
+{
+  font-family: Arial;
+}
+.business 
+{
+   align-items: center; 
+   padding: 50px;
+  justify-content: center;
+}
 .div4 h2{
-  font-family: Walsheim;
+  font-family: Arial;
   font-size: 30px ;
   width:50%;
   margin:30px 0px 0px 300px;
@@ -142,11 +164,41 @@ header #login{
   text-align: center;
  
 }
-.ready li{
-    float: center;
+.ready li {
+  float: center;
   display :inline;
 }
-footer
-{
-  background-color:darkgray;
+.ready li a{
+  text-decoration: none;
 }
+.links{
+  background-color:  #1F1F22;
+}
+.txt h2 {
+  font-family: Arial;
+  color: white;
+  text-align:left;
+}
+
+.ssbloc h4{
+  color: gray;
+  font-family: arial;
+}
+.list
+{
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.list a {
+  color:#FF0099;
+  text-decoration: none;
+}
+footer{
+  color: gray;
+  text-align: center;
+  font-family: arial;
+  padding: 50px;
+}
+
